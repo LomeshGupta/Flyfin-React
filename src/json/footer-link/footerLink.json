@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "linkName" : "About Us",
+        "linkPath" :"/about-us"
+    },
+    {
+        "id" : 3,
+        "linkName" : "Our Services",
+        "linkPath" :"/our-services"
+    },
+    {
+        "id" : 4,
+        "linkName" : "Professionals",
+        "linkPath" :"/professional"
+    }  
+]

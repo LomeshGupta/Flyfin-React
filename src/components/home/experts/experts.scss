@@ -1,0 +1,36 @@
+/*color #545454, rgb(0 74 173)*/
+.experts {
+    align-content: center;
+    background-color: #2d6cca;
+    p {
+        font-family: 'Lato', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    button {
+        font-size: 18px;
+        text-align: center;
+        transition: all ease-in-out .6s;
+        padding: 7px;
+        margin:-8px 0px;
+        background-color: #c2dffe;
+        box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.3);
+        .active
+        {
+            color: black;
+            font-weight: 500;
+        }
+        &:hover {
+            background-color: rgb(83, 14, 14);
+            color: white;
+            transition: all ease-in-out .6s;
+            box-shadow: 10px 10px 11px rgba(221, 189, 189, 0.3);
+            .active
+            {
+                color: white;
+            }
+            // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }
+}

@@ -1,0 +1,166 @@
+.ourTeamMember {
+  background-color: transparent;
+  // border-width: 0cap;
+  .divv
+  {
+    transform: translate(0, 40%);
+  }
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    line-height: 39px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: rgb(0 74 173);
+  }
+  p {
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+  }
+  .img-fluid {
+    transform: translate(0, 40%);
+    // margin-bottom:-156px; /* 156px is half of #userAvatar's height */
+    // margin-left:calc(380px - 156px); /* half of .accountStats's width - half of #userAvatar's height */
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .img-fluid1 {
+    transform: translate(-50px, 50%);
+    // margin-bottom:-156px; /* 156px is half of #userAvatar's height */
+    // margin-left:calc(380px - 156px); /* half of .accountStats's width - half of #userAvatar's height */
+    border-radius: 50%;
+    height: 29-px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .spans {
+    transform: translate(-100%, 20%);
+  }
+  .img-fluid2 {
+    transform: translate(570px, 50%);
+    // margin-bottom:-156px; /* 156px is half of #userAvatar's height */
+    // margin-left:calc(380px - 156px); /* half of .accountStats's width - half of #userAvatar's height */
+    border-radius: 50%;
+    height: 29-px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+  // #userAvatar{
+  //     margin-bottom:-156px; /* 156px is half of #userAvatar's height */
+  //     margin-left:calc(380px - 156px); /* half of .accountStats's width - half of #userAvatar's height */
+  //     border-radius: 50%;
+  //     height: 312px;
+  //     width: 312px;
+  //     object-fit: cover;
+  //     object-position: center;
+  // }
+  .ok {
+    text-align: center; /* additional */
+    padding-top: 126px; /* half of #userAvatar's height */
+    width: 100%;
+    height: 500px;
+    // transform:translate(0,10%) ;
+    background: #fbfbfb;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    padding-left: 7%;
+  }
+  .ok1 {
+    text-align: center; /* additional */
+    padding-top: 126px; /* half of #userAvatar's height */
+    width: 1200px;
+    // height:980px;
+    // transform:translate(0,10%) ;
+    background: #fbfbfb;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    padding-left: 7%;
+  }
+  .ok2 {
+    text-align: center; /* additional */
+    padding-top: 126px; /* half of #userAvatar's height */
+    width: 920px;
+    // height:980px;
+    background: #fbfbfb;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    padding-left: 7%;
+  }
+  @media (max-width: 991.98px) {
+    .ok1 {
+      text-align: center; /* additional */
+      padding-top: 126px; /* half of #userAvatar's height */
+      width: 100%;
+      // height:980px;
+      // transform:translate(0,10%) ;
+      background: #fbfbfb;
+      box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+      padding-right: 7%;
+      padding-bottom: 7%;
+      padding-left: 7%;
+    }
+    .divv
+  {
+    transform: translate(0, 20%);
+  }
+    .ok2 {
+      text-align: center; /* additional */
+      padding-top: 126px; /* half of #userAvatar's height */
+      width: 100%;
+      // height:980px;
+      // transform:translate(0,10%) ;
+      background: #fbfbfb;
+      box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+      padding-right: 7%;
+      padding-bottom: 7%;
+      padding-left: 7%;
+    }
+    .spans {
+      transform: translate(0px, 10%);
+    }
+    .img-fluid2 {
+      transform: translate(-80px, 50%);
+      // margin-bottom:-156px; /* 156px is half of #userAvatar's height */
+      // margin-left:calc(380px - 156px); /* half of .accountStats's width - half of #userAvatar's height */
+      border-radius: 50%;
+      height: 29-px;
+      width: 200px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  // .ok1 {
+  //     text-align:center; /* additional */
+  //     padding-top:126px; /* half of #userAvatar's height */
+  //     width: 900px;
+  //     // height:200px;
+  //     // transform:translate(0,10%) ;
+  //     background: #fbfbfb;
+  //     box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+  //     border-radius: 30px;
+  //     padding-right: 7%;
+  //     padding-bottom: 7%;
+  //     padding-left: 7%;
+  // }
+  .card {
+    background-color: transparent;
+    // border-radius: 50%;
+    border-color: transparent;
+    transform: translate(0, -15%);
+  }
+}

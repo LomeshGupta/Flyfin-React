@@ -1,0 +1,41 @@
+[
+    {
+        "id" :1,
+        "navBarName" : "Home",
+        "path" : "",
+        "toggle" : false
+    },
+    {
+        "id" :2,
+        "navBarName" : "About Us",
+        "path" : "",
+        "toggle" : true,
+        "subMenu" : [
+            {
+                "id" : 1,
+                "navBarName" : "About Us1",
+                "path" : ""
+            },
+            {
+                "id" : 1,
+                "navBarName" : "About Us1",
+                "path" : ""
+            }
+        ]
+    },
+    {
+        "id" :3,
+        "navBarName" : "Home",
+        "path" : ""
+    },
+    {
+        "id" :4,
+        "navBarName" : "Home",
+        "path" : ""
+    },
+    {
+        "id" :5,
+        "navBarName" : "Home",
+        "path" : ""
+    }
+]

@@ -62,16 +62,6 @@ export default function Header() {
         </div> */}
 
       <nav className="navbar navbar-expand-lg bg-light" id="navbar_top">
-        {/* <!-- Google Tag Manager (noscript) --> */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-T6HHQ636"
-            height="0"
-            width="0"
-            style="display:none;visibility:hidden"
-          ></iframe>
-        </noscript>
-        {/* <!-- End Google Tag Manager (noscript) --> */}
         <div className="container">
           <Link
             className="navbar-brand logo-style d-inline-block"

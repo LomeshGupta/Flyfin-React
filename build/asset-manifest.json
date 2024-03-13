@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.737cba81.css",
-    "main.js": "/static/js/main.5de6dfae.js",
+    "main.js": "/static/js/main.e9e8de14.js",
     "static/media/Outsourcing.png": "/static/media/Outsourcing.d91cb970db4369cf66b0.png",
     "static/media/due-dates.jpg": "/static/media/due-dates.7453d8b3fe0e93612f23.jpg",
     "static/media/FlyFin.pdf": "/static/media/FlyFin.38eedcea849a75db0fbd.pdf",
@@ -60,10 +60,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.737cba81.css.map": "/static/css/main.737cba81.css.map",
-    "main.5de6dfae.js.map": "/static/js/main.5de6dfae.js.map"
+    "main.e9e8de14.js.map": "/static/js/main.e9e8de14.js.map"
   },
   "entrypoints": [
     "static/css/main.737cba81.css",
-    "static/js/main.5de6dfae.js"
+    "static/js/main.e9e8de14.js"
   ]
 }

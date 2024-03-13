@@ -26,6 +26,8 @@ export default function ApplyForm() {
                       Company Name *
                     </label>
                     <input
+                      id="companyname"
+                      name="companyname"
                       type="text"
                       className="form-control"
                       placeholder="Company Name"
@@ -36,6 +38,8 @@ export default function ApplyForm() {
                       Mobile Number *
                     </label>
                     <input
+                      id="number"
+                      name="number"
                       type="text"
                       className="form-control"
                       placeholder="Mobile Number"
@@ -46,6 +50,8 @@ export default function ApplyForm() {
                       Email Address *
                     </label>
                     <input
+                      id="email"
+                      name="email"
                       type="email"
                       className="form-control"
                       placeholder="Email Address"
@@ -55,7 +61,7 @@ export default function ApplyForm() {
                     <label for="" class="form-label">
                       State *
                     </label>
-                    <select className="form-control">
+                    <select name="state" className="form-control">
                       <option value="">Please Select State</option>
                     </select>
                   </div>
@@ -163,7 +169,6 @@ export default function ApplyForm() {
                     </button>
                   </div>
                 </div>
-                
               </form>
             </div>
           </div>

@@ -67,7 +67,7 @@ export default function Footer() {
   return (
     <>
       <div className="App">
-        <SimpleForm />
+        {/* <SimpleForm /> */}
       </div>
       <section className="footer">
         <PageScroll />

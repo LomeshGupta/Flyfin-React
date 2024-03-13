@@ -97,6 +97,7 @@ const ContactUs = () => {
                       Name
                     </label>
                     <input
+                      id="name"
                       onChange={changehandler}
                       type="text"
                       className="form-control"
@@ -109,6 +110,7 @@ const ContactUs = () => {
                       Company Name
                     </label>
                     <input
+                      id="company"
                       onChange={changehandler}
                       type="text"
                       name="company"
@@ -123,6 +125,7 @@ const ContactUs = () => {
                     <input
                       onChange={changehandler}
                       type="text"
+                      id="phone"
                       name="phone"
                       className="form-control"
                       placeholder="Phone Number"
@@ -135,6 +138,7 @@ const ContactUs = () => {
                     <input
                       onChange={changehandler}
                       type="email"
+                      id="email"
                       name="email"
                       className="form-control"
                       placeholder="Email Address"
@@ -148,6 +152,7 @@ const ContactUs = () => {
                     <textarea
                       onChange={changehandler}
                       type="text"
+                      id="enquiry"
                       name="enquiry"
                       className="form-control"
                       placeholder="Enquiry"
@@ -156,6 +161,8 @@ const ContactUs = () => {
                   <div className="col-md-12">
                     <div className="form-check pt-1">
                       <input
+                        id="checkbox"
+                        name="checkbox"
                         onChange={changehandler}
                         className="form-check-input"
                         type="checkbox"

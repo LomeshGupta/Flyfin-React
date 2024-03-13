@@ -46,7 +46,6 @@ export default function Footer() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  
   const theme = {
     background: "lightblue",
     headerBgColor: "darkblue",
@@ -66,9 +65,7 @@ export default function Footer() {
 
   return (
     <>
-      <div className="App">
-        {/* <SimpleForm /> */}
-      </div>
+      <div className="App">{/* <SimpleForm /> */}</div>
       <section className="footer">
         <PageScroll />
         <div className="container-fluid">
@@ -126,7 +123,9 @@ export default function Footer() {
             </div>
             <div className="col-lg-4 mb-3 col-md-6 col-sm-12">
               <h3 className="text-white">Contact Us</h3>
-              <h7 className="text-white">Address: "1 Gibson drive, Bracknell, Berkshire"</h7>
+              <h7 className="text-white">
+                Address: "1 Gibson drive, Bracknell, Berkshire"
+              </h7>
               <div className="contact-us">
                 {/* <div className="d-lg-flex d-sm-block mt-4">
                   <input type="text" placeholder="Your Full Name" />
@@ -152,17 +151,13 @@ export default function Footer() {
                   </a>
                 </h3>
                 <iframe
-                  className="mt-3 round-5 gmap_iframe"
-                  width="90%"
-                  height="20%"
-                  frameBorder="0"
-                  marginHeight="0"
-                  marginWidth="0"
-                  src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=1 Gibson Dr, Bracknell RG12 9NQ, UK&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                  style={{
-                    boxShadow:
-                      "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
-                  }}
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19909.07085469004!2d-0.7405750000000001!3d51.409782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767e1798fe8ba1%3A0x506ae4fc51cd5a0e!2s1%20Gibson%20Dr%2C%20Bracknell%20RG12%209NQ%2C%20UK!5e0!3m2!1sen!2sus!4v1710343615378!5m2!1sen!2sus"
+                  width="600"
+                  height="450"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>

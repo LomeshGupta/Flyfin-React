@@ -152,9 +152,9 @@ export default function Footer() {
                 </h3>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19909.07085469004!2d-0.7405750000000001!3d51.409782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767e1798fe8ba1%3A0x506ae4fc51cd5a0e!2s1%20Gibson%20Dr%2C%20Bracknell%20RG12%209NQ%2C%20UK!5e0!3m2!1sen!2sus!4v1710343615378!5m2!1sen!2sus"
-                  width="600"
-                  height="450"
-                  style="border:0;"
+                  width="350"
+                  height="150"
+                  style={{ border: 0 }}
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"

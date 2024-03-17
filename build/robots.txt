@@ -1,9 +1,2 @@
-User-agent: Googlebot
-Allow: /*.css
-Allow: /*.js
-Disallow:
-
-User-agent: Googlebot-Mobile
-Allow: /*.css
-Allow: /*.js
+User-agent: *
 Disallow:
